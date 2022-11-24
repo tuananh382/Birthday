@@ -443,10 +443,10 @@ body {
   position: absolute;
   top: -22px;
   left: 50%;
-  margin-left: -3.3333333333333335px;
-  width: 6.666666666666667px;
+  margin-left: -5px;
+  width: 10px;
   height: 20.5px;
-  animation: fire 2s infinite;
+  animation: fire 1.5s infinite;
 }
 
 
@@ -455,20 +455,27 @@ body {
   0% {
     background: rgb(251,243,63);
     background: radial-gradient(circle, rgba(251,243,63,1) 0%, rgba(252,177,70,1) 100%);
-    transform: translateY(0) scale(1);
+    transform: translateY(-40) scale(1); 
   }
   50% {
-    transform: translateY(-20px) scale(0);
+    transform: translateY(0) scale(0);
 		background: rgb(251,243,63);
     background: radial-gradient(circle, rgba(251,243,63,1) 0%, rgba(252,177,70,1) 100%);
   }
   100% {
     background: rgb(251,243,63);
     background: radial-gradient(circle, rgba(251,243,63,1) 0%, rgba(252,177,70,1) 100%);
-    transform: translateY(0) scale(1);
+    transform: translateY(-40) scale(1);
 	}
 }
 
+canvas {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+  }
+  
 
 
 
@@ -519,4 +526,4 @@ h1 {
     width: 30px;
     height: 30px;
     box-shadow: 1px 1px 4px #eb6383;
-  }
+  }                                                                                                                                                             
