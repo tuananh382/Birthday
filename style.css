@@ -593,12 +593,10 @@ canvas {
 
 
 h1 {
-    font-size: 6.5vw;
-    text-align: center;
+    font-size: 10vw;
+    margin-bottom:0px;
     color: white;
-    width: 50vw;
-    position: absolute;
-    right: -6vw;
+
     text-shadow: 1px 1px 2px #eb6383;
   }
   
